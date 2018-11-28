@@ -11,7 +11,7 @@ export default class App extends React.Component {
             <Header  headerText={'Albums2018'}  />
             <AlbumList />
         </View> 
-             
+              
      ); 
   } 
 } 

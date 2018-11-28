@@ -36,7 +36,9 @@ const AlbumDetail = ({album}) => {
 
 
             <CardSection>
-                <Button />
+                <Button 
+                   onPress={()=>console.log('preessed!')}
+                />
             </CardSection>
 
         </Card>
