@@ -28,7 +28,7 @@ const AlbumDetail = ({album}) => {
 
 
             <CardSection>
-                    <Image
+                    <Image 
                         style={styles.imageStyle}
                         source={{uri:image}}
                    />
@@ -37,6 +37,7 @@ const AlbumDetail = ({album}) => {
 
             <CardSection>
                 <Button 
+                   title = "Buy Now"
                    onPress={()=>Linking.openURL(url)}
                 />
             </CardSection>

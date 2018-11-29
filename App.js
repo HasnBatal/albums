@@ -10,9 +10,9 @@ export default class App extends React.Component {
         <View style={{flex:1}}> 
             <Header  headerText={'Albums2018'}  />
             <AlbumList />
-        </View>  
-              
-     ); 
+        </View>   
+               
+     );  
   } 
 } 
  
